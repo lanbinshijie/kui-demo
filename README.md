@@ -1,4 +1,4 @@
-# kui-demo
+# kui-demo 练手项目
 
 ## Project setup
 ```
