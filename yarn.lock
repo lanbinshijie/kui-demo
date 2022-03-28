@@ -5264,6 +5264,27 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npmmirror.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+kui-icons@^2.0.1:
+  version "2.0.3"
+  resolved "https://registry.npmmirror.com/kui-icons/-/kui-icons-2.0.3.tgz#511e9567dee6268535efe87dfb92b636a071c525"
+  integrity sha512-9Lb3xw2eXJKFgFOQcKfG6rgja16248LcHidrEoTBFefRwAij4mI28BIgSMiZA5D11hDQPViHqfi1UQk08t7iCA==
+
+kui-loader@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/kui-loader/-/kui-loader-1.0.6.tgz#305b3ad629422df12bcccc547350e0bf438dafe9"
+  integrity sha512-Sz7HUxsTlyGlftXc8gkiiHKkkC7057WRl+o28lDoj4S6yoGXH2QjS8dFaE1MJNiU7otI44wfsUNqJKE8PmJegg==
+  dependencies:
+    loader-utils "^1.1.0"
+
+kui-vue@^3.2.9-rc1:
+  version "3.2.9-rc1"
+  resolved "https://registry.npmmirror.com/kui-vue/-/kui-vue-3.2.9-rc1.tgz#7735541d43b151038d70a8804f6001931a724a18"
+  integrity sha512-I+Mic/HAh2AWcbOabaaHmHvi0gUH4L36dR3yTPX54IWIi3/7UDgfw/rqqE0WNizQCYsXz7cAlXbg3hxoe+sopg==
+  dependencies:
+    kui-icons "^2.0.1"
+    kui-loader "^1.0.6"
+    moment "^2.29.1"
+
 launch-editor-middleware@^2.2.1:
   version "2.3.0"
   resolved "https://registry.npmmirror.com/launch-editor-middleware/-/launch-editor-middleware-2.3.0.tgz#edd0ed45a46f5f1cf27540f93346b5de9e8c3be0"
@@ -5657,6 +5678,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
     minimist "^1.2.6"
+
+moment@^2.29.1:
+  version "2.29.1"
+  resolved "https://registry.npmmirror.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
